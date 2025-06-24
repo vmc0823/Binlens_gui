@@ -1,0 +1,16 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Convert .ui to .py",
+      "type": "shell",
+      "command": "pyside6-uic ui/main_window.ui -o ui_main_window.py",
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "problemMatcher": [],
+      "detail": "Convert Qt Designer .ui file to Python code"
+    }
+  ]
+}
