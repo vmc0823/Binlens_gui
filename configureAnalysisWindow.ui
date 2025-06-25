@@ -14,7 +14,11 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>Configure Analysis</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Icons/Icons.qrc">
+    <normaloff>:/Main2/Screenshot 2025-06-19 122917.png</normaloff>:/Main2/Screenshot 2025-06-19 122917.png</iconset>
   </property>
   <layout class="QGridLayout" name="gridLayout">
    <item row="0" column="0">
@@ -44,13 +48,13 @@
       <attribute name="title">
        <string>General</string>
       </attribute>
-      <widget class="QWidget" name="">
+      <widget class="QWidget" name="layoutWidget">
        <property name="geometry">
         <rect>
          <x>10</x>
          <y>20</y>
          <width>351</width>
-         <height>91</height>
+         <height>111</height>
         </rect>
        </property>
        <layout class="QGridLayout" name="gridLayout_2">
@@ -230,6 +234,8 @@
    </item>
   </layout>
  </widget>
- <resources/>
+ <resources>
+  <include location="Icons/Icons.qrc"/>
+ </resources>
  <connections/>
 </ui>

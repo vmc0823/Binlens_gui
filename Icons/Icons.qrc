@@ -1,0 +1,17 @@
+<RCC>
+  <qresource prefix="Main">
+    <file>Screenshot 2025-06-19 112658.png</file>
+  </qresource>
+  <qresource prefix="Main2">
+    <file>Screenshot 2025-06-19 122917.png</file>
+  </qresource>
+  <qresource prefix="OK">
+    <file>Symbol_OK.svg.png</file>
+  </qresource>
+  <qresource prefix="Cancel">
+    <file>594864.png</file>
+  </qresource>
+  <qresource prefix="Logo">
+    <file>Screenshot 2025-06-19 112653.png</file>
+  </qresource>
+</RCC>
