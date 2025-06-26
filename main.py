@@ -1,5 +1,7 @@
 import sys
 import os
+import angr
+from claripy import BVS
 from PySide6.QtWidgets import QApplication, QDialog, QFileDialog
 from configureAnalysisWindow_ui import Ui_Configure
 
@@ -37,18 +39,32 @@ class ConfigureDialog(QDialog):
         if not self.selected_file:
             print("⚠️ No file selected!")
             return
-
+        
         arch    = self.ui.b_optionsInstruc.currentText()
-        timeout = self.ui.b_optionsTimeout.currentText()
+        timeout = int(self.ui.b_optionsTimeout.currentText())
         memory  = self.ui.b_optionsMaxMemory.currentText()
+        
+        # angr logic here
+        proj = angr.Project(self.selected_file, auto_load_libs=False)
 
-        # call analysis logic...
-        print("🔎 Starting analysis on", self.selected_file)
-        print(f" • Architecture: {arch}")
-        print(f" • Timeout (mins): {timeout}")
-        print(f" • Max Memory: {memory}")
+        sym_arg = BVS("sym_arg", 8 * 8)
+        state = proj.factory.entry_state(args=[self.selected_file, sym_arg])
 
-        # TODO: replace prints with actual analysis functions
+        simgr = proj.factory.simgr(state)
+        simgr.explore( 
+            find=lambda s: b"Correct!" in s.posix.dumps(1),
+            avoid=lambda s: b"Wrong!" in s.posix.dumps(1),
+        )
+
+        #results
+        if simgr.found:
+            found = simgr.found[0]
+            solution = found.solver.eval(sym_arg, cast_to=bytes).rstrip(b"\x00")
+            print("Solution:", solution.decode())
+        else:
+            print("No valid input found.")
+
+
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
