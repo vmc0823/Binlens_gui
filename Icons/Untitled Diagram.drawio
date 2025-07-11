@@ -1,9 +1,54 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.3">
   <diagram name="Page-1" id="k69fc8ky0Oah9kISSwA5">
-    <mxGraphModel>
+    <mxGraphModel dx="994" dy="623" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DAw9R1Yi9dr0P80O2x-I-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="39" width="463" height="331" as="geometry" />
+        </mxCell>
+        <mxCell id="DAw9R1Yi9dr0P80O2x-I-2" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;Configure Analysis on &amp;lt;filename&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="59.5" y="49" width="454" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DAw9R1Yi9dr0P80O2x-I-3" value="Start" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="408" y="338" width="94" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DAw9R1Yi9dr0P80O2x-I-4" value="" style="swimlane;shape=mxgraph.bootstrap.anchor;strokeColor=#000000;fillColor=#ffffff;fontColor=light-dark(#ffffff, #dadada);fontStyle=0;childLayout=stackLayout;horizontal=0;startSize=0;horizontalStack=1;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="55" y="112" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="DAw9R1Yi9dr0P80O2x-I-5" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;General&lt;/font&gt;" style="text;strokeColor=#000000;align=center;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;shape=mxgraph.mockup.leftButton;rSize=10;fillColor=#FFFFFF;fontColor=#ffffff;fontSize=15;fontStyle=1;" vertex="1" parent="DAw9R1Yi9dr0P80O2x-I-4">
+          <mxGeometry width="125" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="DAw9R1Yi9dr0P80O2x-I-6" value="&lt;font style=&quot;color: rgb(254, 254, 254);&quot;&gt;Shared Objects&lt;/font&gt;" style="text;strokeColor=#6c8ebf;align=center;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rSize=5;fillColor=light-dark(#1a53ff, #1d293b);fontSize=14;fontStyle=1;" vertex="1" parent="DAw9R1Yi9dr0P80O2x-I-4">
+          <mxGeometry x="125" width="125" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="DAw9R1Yi9dr0P80O2x-I-7" value="&lt;font&gt;Entrypoints&lt;/font&gt;" style="text;strokeColor=light-dark(#000000, #b2cbff);align=center;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rSize=5;fillColor=light-dark(#ffffff, #6db2ff);fontSize=14;fontStyle=1;fontColor=#141414;glass=0;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="112" width="125" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="DAw9R1Yi9dr0P80O2x-I-8" value="Back" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="305" y="338" width="94" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DAw9R1Yi9dr0P80O2x-I-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="134" width="463" height="199" as="geometry" />
+        </mxCell>
+        <mxCell id="DAw9R1Yi9dr0P80O2x-I-59" value="&lt;b&gt;+ Add directory&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="70" y="294" width="122" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="DAw9R1Yi9dr0P80O2x-I-60" value="&lt;b&gt;- Remove selected&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="219" y="294" width="118" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="DAw9R1Yi9dr0P80O2x-I-62" value="&lt;b&gt;Reset to System Default&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="363" y="292" width="123" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="DAw9R1Yi9dr0P80O2x-I-63" value="&lt;b&gt;Current Search Paths:&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="67" y="188" width="131" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DAw9R1Yi9dr0P80O2x-I-64" value="Add one or more directories containing shared libraries required for accurate dynamic analysis" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="68" y="150" width="431" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DAw9R1Yi9dr0P80O2x-I-65" value="/home/user/libs&lt;div&gt;/user/lib/...&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="68" y="220" width="349" height="57" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
